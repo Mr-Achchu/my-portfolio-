@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;  /* Ensure items are stacked vertically */
+    align-items: center;     /* Center the boxes horizontally */
+    justify-content: center; /* Center the boxes vertically */
+    height: 100vh;           /* Full screen height */
+    width: 100%;             /* Full width */
+    gap: 20px;   
+    background-color: black;            /* Spacing between boxes */
+}
+
+.Expirience {
+    display: flex;
+    flex-direction: column;  /* Stack content inside each box */
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted white;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}

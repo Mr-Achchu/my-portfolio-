@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    padding-top: 100px; /* Adjust this value */
+    background-color: black;
+}
+.skillContainer_text{
+    color:white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.skillContainer_text>h2{
+    font-size: 30px;
+}
+
+.skillContainer_image {
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+  }
+  
+  .skillContainer_image img {
+    width: 450px;
+    border-radius: 3px;
+    object-fit: contain;
+  }
+
+  .SkillContainer_skillset>h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 10px;
+ 
+  }
+
+  .skillContainer_slider > .MuiLinearProgress-colorPrimary {
+    background-color: #e0e0e0; /* Light gray for better contrast */
+} 
+
+.skillContainer_slider1 .MuiLinearProgress-bar {
+    background-color: #ff5733 !important; /* Vibrant Orange */
+}
+
+.skillContainer_slider2 .MuiLinearProgress-bar {
+    background-color: #ffbd33 !important; /* Warm Yellow */
+}
+
+.skillContainer_slider3 .MuiLinearProgress-bar {
+    background-color: #33cc57 !important; /* Fresh Green */
+}
+
+.skillContainer_slider4 .MuiLinearProgress-bar {
+    background-color: #3399ff !important; /* Cool Blue */
+}
+
+.skillContainer_slider5 .MuiLinearProgress-bar {
+    background-color: #9b33ff !important; /* Elegant Purple */
+}
+
+.skillContainer_slider6 .MuiLinearProgress-bar {
+    background-color: #ff3385 !important; /* Energetic Pink */
+}

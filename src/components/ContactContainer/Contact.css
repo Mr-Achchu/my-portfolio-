@@ -1,0 +1,23 @@
+.contactContainer {
+  text-align: center;
+  margin: 20px;
+  background-color: black;
+}
+
+.platformWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.MuiIconButton-root {
+  transition: transform 0.3s;
+}
+
+.MuiIconButton-root:hover {
+  transform: scale(1.2);
+}
+h1{
+color: white;
+}

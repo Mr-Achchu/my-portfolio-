@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+
+}
+.header_left{
+    flex: 0.4;
+}
+.header_left>h1{
+    text-align: center;
+    font-family:"Poppins" ;
+    letter-spacing: 1px;
+    padding: 20px;
+
+}
+.header_left > h1 > span{
+    color: #f64c08;
+}
+
+.header_right {
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.header_right> a>h4{
+    font-size: 14px;
+    cursor: pointer;
+    transition: tansform 200ms ease-in-out ;
+    font-family: "crimson Text",serif;
+    padding: 20px 0;
+    letter-spacing:1px ;
+}
+
+.header_right> a>h4:hover{
+    transform: scale(1.09);
+    background-color: #f64c08;
+    color: wheat;
+    padding:5px 20px ;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "crimson Text",serif;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
+.header_rightbutton{
+    background-color: #f64c08;
+    color: bisque;
+    padding:5px 20px;
+    border-radius:2px ;
+    cursor: pointer;
+}
+.header_rightbutton {
+    background-color: #F64C08 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .header_rightbutton:hover {
+    background-color: #d43f00 !important;
+  }

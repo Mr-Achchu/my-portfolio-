@@ -1,0 +1,27 @@
+/* Set background color for the entire page */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black; /* Ensure the body and the browser background are black */
+  color: white; /* Text color to white for visibility */
+}
+
+/* Your header style */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  color: white;
+  z-index: 10;
+}
+
+/* Additional content */
+.main-content {
+  margin-top: 60px; /* To avoid content being hidden behind fixed header */
+  padding: 20px;
+}

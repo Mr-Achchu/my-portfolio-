@@ -1,0 +1,90 @@
+/* ProjectContainer.css */
+.project_Container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Center the cards vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #000; /* Black background */
+    padding: 20px; /* Padding for spacing */
+   /* Disable vertical scrolling */
+  }
+  
+  .profile-cards-wrapper {
+    display: flex;
+    flex-direction: row; /* Arrange the profile cards in a row */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the profile cards */
+    max-width: 1000px; /* Maximum width of the container */
+    width: 100%;
+    margin-top: 20px; /* Margin from top */
+    padding: 20px;
+  }
+  
+  .profile-card {
+    width: 100%;
+    max-width: 300px; /* Limit the card width */
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-card img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .profile-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .profile-card p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .profile-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #0077b5; /* Default color for Behance */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-card a.github {
+    background-color: #333; /* Dark color for GitHub */
+  }
+  
+  .profile-card a:hover {
+    background-color: #005c8a;
+  }
+  
+  .profile-card a.github:hover {
+    background-color: #222;
+  }
+  
+  /* Smooth scroll behavior */
+  .project_Container {
+    scroll-behavior: smooth;
+  }
+  
